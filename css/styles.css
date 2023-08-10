@@ -3,7 +3,7 @@
  body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
-    background-color: #FFFFFF;
+    background-color: var(--white-color);
  }
 
   ul {
@@ -79,7 +79,17 @@ font-size: 20px;
 .address:focus {
     color: rgba(77, 90, 229, 1)
 }
-
+footer {
+    .logo {
+            font-family: "Raleway", sans-serif;
+            font-weight: 800;
+            font-size: 18px;
+            line-height: 1.17;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            color: #4d5ae5
+        }
+}
 .text-footer {
         color: var(--white-color);
         font-size: 16px;
