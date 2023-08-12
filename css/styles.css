@@ -6,7 +6,6 @@
      --logo-color: #4d5ae5;
      --accent-color: #2e2f42;
      --hover-color: #404bbf;
-
  }
 
  body {
@@ -43,7 +42,7 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var (--accent-color)
+    color: var(--accent-color)
   }
  
   .link:hover,
@@ -88,18 +87,8 @@ font-size: 56px;
  /* ====== PAGE HERO ===== */
 
 
- .menu {
-
- }
-
- .menu-item {
-
- }
-
 
  /* ====== PAGE HERO ===== */
-
-
 
 
  .list .text {
@@ -124,38 +113,29 @@ font-size: 20px;
  }
 
  
- }
+/* ====== PAGE FOOTER ===== */
 
- button {
-    background-color:rgba(231, 233, 252, 1)
-    color: rgba(77, 90, 229, 1);
-    }
-
-        .page-footer {
-            background-color: rgba(46, 47, 66, 1);
-        }
-
-.list
-
-
-
-footer {
-    .logo {
-            font-family: "Raleway", sans-serif;
-            font-weight: 800;
-            font-size: 18px;
-            line-height: 1.17;
-            letter-spacing: 0.03em;
-            text-transform: uppercase;
-            color: #4d5ae5
-        }
+.page-footer {
+    background-color: var(--accent-color);
 }
-.text-footer {
-        color: var(--white-color);
-        font-size: 16px;
-    }
 
-/*
-        .list {
-            list-style: none
-        }
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--logo-color);
+}
+
+.text-footer {
+    color: var(--white-color);
+    font-size: 16px;
+}
+
+.accent {
+    color: #f4f4fd;
+}
+
+/* ====== PAGE FOOTER ===== */
