@@ -34,7 +34,7 @@ body {
 }
 
 .accent {
-    color: #2e2f42;
+    color: var(--accent-color);
 }
 
 .menu-link {
