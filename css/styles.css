@@ -210,10 +210,10 @@ body {
         }
     
         .text-footer {
-            color: var(--button-color:);
+            color: var(--button-color);
             font-size: 16px;
         }
-    
+
         .accent {
             color: #f4f4fd;
         }
