@@ -72,10 +72,6 @@ body {
 
  /* ====== PAGE SECTION 1 ===== */
 
-  .page-header {
-      background-color: var(--accent-color)
-  }
-
   .first-section {
       background-color: var(--accent-color);
   }
@@ -121,23 +117,27 @@ font-size: 16px;
     letter-spacing: 0.32px;
  }
 
-.title-list {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--accent-color);
+
 }
 
-.text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--main-text-color);
-}
 */
 
   /* ====== PAGE SECTION 2 ===== */
+
+  .text {
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+      color: var(--main-text-color);
+  }
+
+    .title-list {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 1.2;
+            letter-spacing: 0.02em;
+            color: var(--accent-color);
+    }
 
         /* ====== PAGE SECTION 3 ===== */
 
