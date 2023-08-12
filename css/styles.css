@@ -34,7 +34,7 @@ body {
 }
 
 .accent {
-    color: var(--accent-color);
+    color: #2e2f42;
 }
 
 .menu-link {
@@ -139,6 +139,10 @@ body {
     .team-sestion {
         background-color: #F4F4FD;
     }
+
+        .team-list {
+            background-color: #FFFFFF;
+        }
 
 
 
