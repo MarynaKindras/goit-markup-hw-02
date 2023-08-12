@@ -70,106 +70,105 @@ body {
 /* ====== PAGE HEADER ===== */
 
 
- /* ====== PAGE SECTION 1 ===== */
+/* ====== PAGE SECTION 1 ===== */
 
-  .first-section {
-      background-color: var(--accent-color);
-  }
-
-  .main-title {
-      font-size: 56px;
-      line-height: 1.07;
-      text-align: center;
-      letter-spacing: 0.02em;
-      color: var(--white-color);
-
-    .main-button {
-            
-            background-color: #4D5AE5;
-            font-family: "Roboto", sans-serif;
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 1.5;
-            letter-spacing: 0.04em;
-            color: #ffffff;
-            cursor: pointer;
-    }
-    
-        .menu-button:hover,
-        .menu-button:focus {
-            background-color: #404BBF;
-        }
-
-
- /* ====== PAGE SECTION 1 ===== */
-
-
-  /* ====== PAGE SECTION 2 ===== */
-
-  .text {
-      font-size: 16px;
-      line-height: 1.5;
-      letter-spacing: 0.02em;
-      color: var(--main-text-color);
-  }
-
-    .title-list {
-            font-weight: 500;
-            font-size: 20px;
-            line-height: 1.2;
-            letter-spacing: 0.02em;
-            color: var(--accent-color);
-    }
-
-        /* ====== PAGE SECTION 3 ===== */
-
-                .second-title {
-                    font-size: 36px;
-                    line-height: 1.11; 
-                    text-align: center; 
-                     letter-spacing: 0.02em; 
-                     text-transform: capitalize; 
-                    color: var(--accent-color)
-                }
-        /* ====== PAGE SECTION 3 ===== */
-
-       /* ====== PAGE SECTION 4 ===== */
-
-.team-sestion {
-    background-color: #F4F4FD;
-}
-
-
-
-           /* ====== PAGE SECTION 4 ===== */
-
- 
-/* ====== PAGE FOOTER ===== */
-
-.page-footer {
+.first-section {
     background-color: var(--accent-color);
 }
 
-.logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--logo-color);
-}
-
-.text-footer {
-    color: var(--white-color);
-    font-size: 16px;
-    line-height: 1.5;
-    color: var(--button-color);
+.main-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
     letter-spacing: 0.02em;
+    color: var(--white-color);
 }
 
-.accent {
-    color: #f4f4fd;
-}
+    .main-button {
+        background-color: #4d5ae5;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #ffffff;
+        cursor: pointer;
+    }
 
-/* ====== PAGE FOOTER ===== */
+    .main-button:hover,
+    .main-button:focus {
+        background-color: #404bbf;
+    }
+
+
+    /* ====== PAGE SECTION 1 ===== */
+
+
+    /* ====== PAGE SECTION 2 ===== */
+
+    .text {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--main-text-color);
+    }
+
+    .title-list {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--accent-color);
+    }
+
+    /* ====== PAGE SECTION 3 ===== */
+
+    .second-title {
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: var(--accent-color)
+    }
+
+    /* ====== PAGE SECTION 3 ===== */
+
+    /* ====== PAGE SECTION 4 ===== */
+
+    .team-sestion {
+        background-color: #F4F4FD;
+    }
+
+
+
+    /* ====== PAGE SECTION 4 ===== */
+
+
+    /* ====== PAGE FOOTER ===== */
+
+    .page-footer {
+        background-color: var(--accent-color);
+    }
+
+    .logo {
+        font-family: "Raleway", sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--logo-color);
+    }
+
+    .text-footer {
+        color: var(--white-color);
+        font-size: 16px;
+        line-height: 1.5;
+        color: var(--button-color);
+        letter-spacing: 0.02em;
+    }
+
+    .accent {
+        color: #f4f4fd;
+    }
