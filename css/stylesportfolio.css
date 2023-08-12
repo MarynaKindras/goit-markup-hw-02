@@ -33,7 +33,7 @@ body {
     color: var(--logo-color);
 }
 
-.span {
+.accent {
     color: var (--accent-color);
 }
 
@@ -140,7 +140,7 @@ cursor: pointer;
     font-size: 16px;
 }
 
-span {
+.accent {
     color: var (--button-color);
 }
 
