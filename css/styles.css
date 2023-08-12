@@ -34,7 +34,7 @@ body {
 }
 
 .accent {
-    color: #2e2f42;
+    color: var(--accent-color);
 }
 
 .menu-link {
@@ -144,7 +144,12 @@ body {
             background-color: #FFFFFF;
         }
 
-
+ .team-text {
+     font-size: 16px;
+     line-height: 1.5;
+     letter-spacing: 0.02em;
+     color: var(--main-text-color);
+ }
 
     /* ====== PAGE SECTION 4 ===== */
 
