@@ -152,35 +152,6 @@ body {
  }
 
     /* ====== PAGE SECTION 4 ===== */
-
-
-    /* ====== PAGE FOOTER ===== */
-
-    .page-footer {
-        background-color: var(--accent-color);
-    }
-
-    .logo {
-        font-family: "Raleway", sans-serif;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: var(--logo-color);
-    }
-
-    .text-footer {
-        color: var(--white-color);
-        font-size: 16px;
-        line-height: 1.5;
-        color: var(--button-color);
-        letter-spacing: 0.02em;
-    }
-
-    .accent {
-        color: #f4f4fd;
-    }
     
         /* ====== PAGE MAIN ===== */
     
