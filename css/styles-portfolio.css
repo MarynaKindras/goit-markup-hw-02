@@ -6,7 +6,6 @@
     --accent-color: #2e2f42;
     --hover-color: #404bbf;
     --button-color: #F4F4FD;
-
 }
 
 body {
@@ -43,7 +42,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var (--accent-color)
+    color: var(--accent-color)
 }
 
 .link:hover,
@@ -89,17 +88,19 @@ line-height: 1.5;
 letter-spacing: 0.04em; 
 color: var(--logo-color);
 background-color: var(--button-color);
+}
+
+button{
 cursor: pointer;
 }
 
 .menu-button:hover,
 .menu-button:focus {
-    color: var(--white-color:);
+    color: var(--white-color);
     background-color: var(--hover-color);
-
 }
 
-.title-list, .list {
+.title-list {
     font-weight: 500;
     font-size: 20px; 
     line-height: 1.2; 
@@ -111,10 +112,11 @@ cursor: pointer;
    font-size: 16px;
    line-height: 1.5; 
    letter-spacing: 0.02em;
-   color: var(--main-text-color:);
+   color: var(--main-text-color);
 }
 
 /* ====== PAGE MAIN ===== */
+
 
 /* ====== PAGE FOOTER ===== */
 
