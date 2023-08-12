@@ -60,6 +60,7 @@ body {
     text-decoration: none;
 }
 
+.address-list,
 .address-link {
     font-size: 16px;
     line-height: 1.5;
@@ -90,7 +91,7 @@ color: var(--logo-color);
 background-color: var(--button-color);
 }
 
-button{
+button {
 cursor: pointer;
 }
 
