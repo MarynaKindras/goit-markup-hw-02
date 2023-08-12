@@ -181,3 +181,70 @@ body {
     .accent {
         color: #f4f4fd;
     }
+    
+        /* ====== PAGE MAIN ===== */
+    
+        .menu-button {
+            font-family: "Roboto", sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            color: var(--logo-color);
+            background-color: var(--button-color);
+        }
+    
+        button {
+            cursor: pointer;
+        }
+    
+        .menu-button:hover,
+        .menu-button:focus {
+            color: var(--white-color);
+            background-color: var(--hover-color);
+        }
+    
+        .title-list {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 1.2;
+            letter-spacing: 0.02em;
+            color: var(--accent-color);
+        }
+    
+        .text {
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: var(--main-text-color);
+        }
+    
+        /* ====== PAGE MAIN ===== */
+    
+    
+        /* ====== PAGE FOOTER ===== */
+    
+        .page-footer {
+            background-color: var(--accent-color);
+        }
+    
+        .logo {
+            font-family: "Raleway", sans-serif;
+            font-weight: 800;
+            font-size: 18px;
+            line-height: 1.17;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            color: var(--logo-color);
+        }
+    
+        .text-footer {
+            color: var(--white-color);
+            font-size: 16px;
+        }
+    
+        .accent {
+            color: #f4f4fd;
+        }
+    
+        /* ====== PAGE FOOTER ===== */
