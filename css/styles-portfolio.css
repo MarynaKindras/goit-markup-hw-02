@@ -1,0 +1,156 @@
+:root {
+    --brand-color: #3f51b5;
+    --white-color: #FFFFFF;
+    --main-text-color: #434455;
+    --logo-color: #4d5ae5;
+    --accent-color: #2e2f42;
+    --hover-color: #404bbf;
+    --button-color: #F4F4FD;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--main-text-color);
+    background-color: var(--white-color);
+}
+
+/* ====== PAGE HEADER ===== */
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--logo-color);
+}
+
+.accent {
+    color: var (--accent-color);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.menu-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var (--accent-color)
+}
+
+.link:hover,
+.link:focus
+ {
+    color: var(--hover-color);
+}
+
+.address {
+    font-style: normal;
+}
+
+.list {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.address-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+}
+
+/* ====== PAGE HEADER ===== */
+
+.page-header {
+    background-color: var(--accent-color)
+}
+
+.first-section {
+    background-color: var(--accent-color);
+}
+
+
+/* ====== PAGE MAIN ===== */
+
+.menu-button {
+font-family: "Roboto", sans-serif; 
+font-weight: 500; 
+font-size: 16px; 
+line-height: 1.5;  
+letter-spacing: 0.04em; 
+color: var(--logo-color);
+background-color: var(--button-color);
+cursor: pointer;
+}
+
+.menu-button:hover,
+.menu-button:focus {
+    color: var(--white-color:);
+    background-color: var(--hover-color);
+
+}
+
+.title-list, .list {
+    font-weight: 500;
+    font-size: 20px; 
+    line-height: 1.2; 
+    letter-spacing: 0.02em; 
+    color: var(--accent-color);
+}
+
+.text {
+   font-size: 16px;
+   line-height: 1.5; 
+   letter-spacing: 0.02em;
+   color: var(--main-text-color:);
+}
+
+/* ====== PAGE MAIN ===== */
+
+/* ====== PAGE FOOTER ===== */
+
+.page-footer {
+    background-color: var(--accent-color);
+}
+
+    .logo ,
+    .link {
+        font-family: "Raleway", sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5
+    }
+
+.text-footer {
+    color: var(--white-color);
+    font-size: 16px;
+}
+
+.accent {
+    color: var (--button-color);
+}
+
+/* ====== PAGE FOOTER ===== */
+
+
+
+
+
+
+
+
+
+
+

@@ -2,39 +2,105 @@
  :root {
      --brand-color: #3f51b5;
      --white-color: #FFFFFF;
-     --white-color: #FFFFFF;
+     --main-text-color: #434455;
+     --logo-color: #4d5ae5;
+     --accent-color: #2e2f42;
+     --hover-color: #404bbf;
 
  }
+
  body {
     font-family: 'Roboto', sans-serif;
-    color: #434455;
+    color: var(--main-text-color);
     background-color: var(--white-color);
  }
 
-  ul {
-      list-style-type: none;
-  }
-
-
-
-
-.logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color:  #4d5ae5 
-}
+ /* ====== PAGE HEADER ===== */
+ .logo {
+     font-family: 'Raleway', sans-serif;
+     font-size: 18px;
+     font-weight: 800;
+     line-height: 1.17;
+     letter-spacing: 0.03em;
+     text-transform: uppercase;
+     color: var(--logo-color);
+ }
 
 .accent {
-    color:  #2e2f42;
+      color: var (--accent-color);
+ }
+
+ .link {
+    text-decoration: none;
+ }
+ 
+ .list {
+    list-style: none;
+ } 
+
+  .menu-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var (--accent-color)
+  }
+ 
+  .link:hover,
+  .link:focus {
+      color: var(--hover-color);
+  }
+
+  .address, .link {
+      font-style: normal;
+  }
+
+  .list {
+      list-style-type: none;
+      text-decoration: none;
+  }
+
+  .address-link {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--main-text-color);
 }
 
-.list {
-    list-style: none
-}
+  /* ====== PAGE HEADER ===== */
+
+ .page-header {
+    background-color: var(--accent-color)
+ }
+
+ .first-section {
+    background-color: var(--accent-color);
+ }
+
+ h1 {
+font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+     letter-spacing: 0.02em;
+      color: var(--white-color);
+ }
+ 
+ /* ====== PAGE HERO ===== */
+
+
+ .menu {
+
+ }
+
+ .menu-item {
+
+ }
+
+
+ /* ====== PAGE HERO ===== */
+
+
+
 
  .list .text {
      color: rgba(67, 68, 85, 1);
@@ -53,7 +119,11 @@ font-size: 20px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.4px;
+    text-decoration: none;
    
+ }
+
+ 
  }
 
  button {
@@ -68,18 +138,7 @@ font-size: 20px;
 .list
 
 
-.address {
-    color: rgba(67, 68, 85, 1);
-    font-style: normal
-}
 
-.address:hover{
-    color: rgba(64, 75, 191, 1)
-}
-   
-.address:focus {
-    color: rgba(77, 90, 229, 1)
-}
 footer {
     .logo {
             font-family: "Raleway", sans-serif;
@@ -95,3 +154,8 @@ footer {
         color: var(--white-color);
         font-size: 16px;
     }
+
+/*
+        .list {
+            list-style: none
+        }
