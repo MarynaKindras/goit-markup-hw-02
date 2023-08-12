@@ -34,7 +34,7 @@ body {
 }
 
 .accent {
-    color: var (--accent-color);
+    color: var(--accent-color);
 }
 
 .menu-link {
@@ -141,7 +141,7 @@ cursor: pointer;
 }
 
 .accent {
-    color: var (--button-color);
+    color: #f4f4fd;
 }
 
 /* ====== PAGE FOOTER ===== */
